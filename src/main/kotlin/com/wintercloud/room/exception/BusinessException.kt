@@ -1,6 +1,6 @@
 package com.wintercloud.room.exception
 
-import com.wintercloud.message.converter.MessageConverter
+import com.wintercloud.room.converter.MessageConverter
 
 class BusinessException(
     val errorCode: ErrorCode,

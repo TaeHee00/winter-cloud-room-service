@@ -1,7 +1,7 @@
 package com.wintercloud.room.converter
 
-import com.wintercloud.message.exception.BusinessException
-import com.wintercloud.message.exception.ErrorCode
+import com.wintercloud.room.exception.BusinessException
+import com.wintercloud.room.exception.ErrorCode
 import org.springframework.core.convert.converter.Converter
 import org.springframework.stereotype.Component
 import java.util.UUID

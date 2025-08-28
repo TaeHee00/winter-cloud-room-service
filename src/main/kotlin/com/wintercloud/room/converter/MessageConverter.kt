@@ -1,6 +1,6 @@
 package com.wintercloud.room.converter
 
-import com.wintercloud.message.exception.ErrorCode
+import com.wintercloud.room.exception.ErrorCode
 import org.springframework.context.NoSuchMessageException
 import org.springframework.context.i18n.LocaleContextHolder
 import java.util.Locale
