@@ -6,6 +6,9 @@ enum class ErrorCode(
     val status: HttpStatus,
     val code: String,
 ) {
+    // Auth Error
+    UNAUTHORIZED(HttpStatus.UNAUTHORIZED, "AUTH.001"),
+
     // User Error
     ALREADY_EMAIL(HttpStatus.CONFLICT, "USER.001"),
     USER_NOT_FOUND(HttpStatus.NOT_FOUND, "USER.002"),
